@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   font-family: NanumGothic, 나눔고딕, "Malgun Gothic", "맑은 고딕", sans-serif;
   padding-top: 50px;
+  background-color: #eee;
 }
 /*** 네비게이션 ***/
 .navbar {
@@ -9,11 +10,6 @@ body {
 }
 
 /*** 로그인 ***/
-.login {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
-}
 .form-signin {
   max-width: 330px;
   padding: 15px;

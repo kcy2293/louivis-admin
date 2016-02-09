@@ -18,7 +18,15 @@
   </head>
   <body>
     <div class="container-fluid">
-      <%- partial('header.ejs') %>
+      <% if(!login) { %>
+        <%- partial('header.ejs') %>
+      <% } %>
       <%- body %>
+
+      <% if(err) { %>
+      <script>
+        alert('<%= err %>');
+      </script>
+      <% } %>
   </body>
 </html>
